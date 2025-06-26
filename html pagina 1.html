@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brailia - Traducción Inteligente al Braille</title>
+  <link rel="stylesheet" href="css pagina principal.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Brailia</div>
+    <nav class="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#chat">Chat</a>
+    </nav>
+    <div class="actions">
+      <button id="toggle-mode">Modo</button>
+      <button class="login">Iniciar Sesión</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <h1>Descubre Brailia</h1>
+      <p>La inteligencia artificial que traduce texto a Braille de forma rápida, precisa y accesible para todos.</p>
+      <button class="cta">Probar Brailia</button>
+    </section>
+    <hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
+ <section class="mini-chat">
+    <form id="mini-chat-form" action="chat.html">
+      <label for="mensaje">¿Querés traducir aca?</label>
+      <div class="chat-input">
+        <input type="text" id="mensaje" name="mensaje" placeholder="Escribí algo..." required>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </section>
+    <section class="feature">
+      <img src="imagen 1.webp" alt="Traducción instantánea" class="img-left">
+      <div class="text-right">
+        <h2>Traducción Instantánea</h2>
+        <p>Convierte cualquier texto en Braille en tiempo real, facilitando la inclusión y el acceso a la información.</p>
+        <a href="#" class="leer-mas">Leer más →</a>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="text-left">
+        <h2>Interfaz Intuitiva</h2>
+        <p>Diseñada para ser minimalista, clara y accesible tanto en modo claro como en modo oscuro.</p>
+        <a href="#" class="leer-mas">Leer más →</a>
+      </div>
+      <img src="imagen 3.jpg" alt="Interfaz intuitiva" class="img-right">
+    </section>
+
+    <section class="feature">
+      <img src="imagen 2.jpg" alt="Compatibilidad amplia" class="img-left">
+      <div class="text-right">
+        <h2>Compatibilidad Total</h2>
+        <p>Brailia funciona en múltiples plataformas y dispositivos, para que puedas traducir desde cualquier lugar.</p>
+        <a href="#" class="leer-mas">Leer más →</a>
+      </div>
+    </section>
+  </main>
+
+
+<section class="feature">
+  <img src="imp 1.jpg" alt="Impresora Braille conectada al sistema" class="img-left">
+  <div class="text-left">
+    <h2>Impresora Braille Integrada</h2>
+    <p>Brailia se conecta con impresoras Braille físicas, permitiendo que los textos traducidos cobren vida en papel. Accesibilidad real, al alcance de todos.</p>
+    <a href="#" class="leer-mas">Leer más →</a>
+  </div>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Brailia. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js pagina principal.js"></script>
+</body>
+</html>
